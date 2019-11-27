@@ -1,18 +1,19 @@
 {
     "homepage": "https://haxe.org/",
     "description": "High-level, cross-platform, multi-paradigm programming language and compiler.",
-    "version": "3.4.7",
+    "version": "4.0.2",
     "license": {
-        "url": "https://github.com/HaxeFoundation/haxe/blob/development/extra/LICENSE.txt"
+        "identifier": "MIT,Zlib,BSD-3-Clause,...",
+        "url": "https://github.com/HaxeFoundation/neko/blob/master/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.7/haxe-3.4.7-win64.zip",
-            "hash": "609acdcb58a2253e357487d495ffe19e9034165f3102f8716ca968afbee8f1b2"
+            "url": "https://github.com/HaxeFoundation/haxe/releases/download/4.0.2/haxe-4.0.2-win64.zip",
+            "hash": "787cf7d67da5922c9aaf79c0c4b03c3d7350c522915884b70a27e774dac1560f"
         },
         "32bit": {
-            "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.7/haxe-3.4.7-win.zip",
-            "hash": ""
+            "url": "https://github.com/HaxeFoundation/haxe/releases/download/4.0.2/haxe-4.0.2-win.zip",
+            "hash": "7f593bbbbc5be5f0344dc567e7aa69f39a2aaf661f2a088ed349f12849d06001"
         }
     },
     "bin": [
@@ -43,4 +44,4 @@
             }
         }
     }
-  }
+}
