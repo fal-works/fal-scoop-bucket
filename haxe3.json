@@ -23,7 +23,7 @@
         "HAXEPATH": "$dir"
     },
     "persist": "lib",
-    "depends": "neko-with-envpath",
+    "depends": "neko21",
     "pre_install": [
         "if(Test-Path \"$dir\\haxe_*\") {",
         "    Move-Item -Force \"$dir\\haxe_*\\*\" \"$dir\"",
