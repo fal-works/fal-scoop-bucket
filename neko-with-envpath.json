@@ -24,7 +24,7 @@
     "env_set": {
         "NEKO_INSTPATH": "$dir"
     },
-    "env_add_path": "",
+    "env_add_path": "/",
     "checkver": {
         "github": "https://github.com/HaxeFoundation/neko",
         "regex": "neko-([\\d.]+)-win64"
