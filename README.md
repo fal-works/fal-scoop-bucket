@@ -16,6 +16,8 @@ Add `%NEKO_INSTPATH%` to the enviroment variable `Path`.
 
 ## How to switch
 
+Warning: The haxelib repository path seems to be not switched automatically.
+
 ### Haxe 3
 
 ```
