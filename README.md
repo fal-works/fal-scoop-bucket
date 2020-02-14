@@ -1,7 +1,31 @@
-# Enable to switch Haxe 3 and Haxe 4
+# Switch Haxe 3 and Haxe 4
 
-1. Install "haxe3" and "haxe4".
-1. Set environment variable "%NEKO_INSTPATH%".
-1. 
-    - Run `scoop reset haxe3` and `scoop reset neko21` for using Haxe 3.
-    - Run `scoop reset haxe4` and `scoop reset neko23` for using Haxe 4.
+## Preparation
+
+### Install
+
+```
+scoop install haxe3
+scoop install haxe4
+```
+
+### Settings
+
+Add `%NEKO_INSTPATH%` to the enviroment variable `Path`.
+
+
+## How to switch
+
+### Haxe 3
+
+```
+scoop reset haxe3
+scoop reset neko21
+```
+
+### Haxe 4
+
+```
+scoop reset haxe4
+scoop reset neko23
+```
