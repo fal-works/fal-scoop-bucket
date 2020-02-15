@@ -1,3 +1,13 @@
+This is a [Scoop](https://scoop.sh/) bucket.
+
+# Including apps
+
+- haxe3
+- haxe4
+- neko21
+- neko23
+
+
 # Switch Haxe 3 and Haxe 4
 
 ## Preparation
@@ -11,12 +21,13 @@ scoop install haxe4
 
 ### Settings
 
-Add `%NEKO_INSTPATH%` to the enviroment variable `Path`.
+Add `%HAXEPATH%` and `%NEKO_INSTPATH%` to the enviroment variable `Path`.
 
 
 ## How to switch
 
-Warning: The haxelib repository path seems to be not switched automatically.
+Warning: The haxelib repository path seems to be not switched automatically.  
+Use `haxelib setup`.
 
 ### Haxe 3
 

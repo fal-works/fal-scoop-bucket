@@ -15,10 +15,7 @@
             "hash": ""
         }
     },
-    "bin": [
-        "haxe.exe",
-        "haxelib.exe"
-    ],
+    "bin": [],
     "env_set": {
         "HAXEPATH": "$dir"
     },

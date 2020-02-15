@@ -15,12 +15,7 @@
             "extract_dir": "neko-2.3.0-win"
         }
     },
-    "bin": [
-        "neko.exe",
-        "nekoc.exe",
-        "nekoml.exe",
-        "nekotools.exe"
-    ],
+    "bin": [],
     "env_set": {
         "NEKO_INSTPATH": "$dir"
     },

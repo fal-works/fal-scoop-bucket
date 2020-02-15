@@ -14,10 +14,7 @@
             "url": "https://github.com/HaxeFoundation/haxe/releases/download/4.0.5/haxe-4.0.5-win.zip"
         }
     },
-    "bin": [
-        "haxe.exe",
-        "haxelib.exe"
-    ],
+    "bin": [],
     "env_set": {
         "HAXEPATH": "$dir"
     },
